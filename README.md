@@ -60,3 +60,45 @@ I used [Group 28](https://github.com/CZ3004-Group-28)'s simulator as a boilerpla
 - [Raspberry Pi](https://github.com/pyesonekyaw/CZ3004-SC2079-MDP-RaspberryPi)
 - [Image Recognition](https://github.com/pyesonekyaw/CZ3004-SC2079-MDP-ImageRecognition)
 
+
+```
+{
+    "data": {
+        "commands": [
+            "FR00",
+            "FW10",
+            "SNAP1",
+            "FR00",
+            "BW50",
+            "FL00",
+            "FW60",
+            "SNAP2",
+            ...,
+            "FIN"
+        ],
+        "distance": 46.0,
+        "path": [
+            {
+                "d": 0,
+                "s": -1,
+                "x": 1,
+                "y": 1
+            },
+            {
+                "d": 2,
+                "s": -1,
+                "x": 5,
+                "y": 3
+            },
+            ...,
+            {
+                "d": 2,
+                "s": -1,
+                "x": 6,
+                "y": 9
+            },
+        ]
+    },
+    "error": null
+}
+```
